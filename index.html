@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ClarityConsult</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Montserrat:wght@200;400;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar start -->
+        <div
+            class="container-fluid border-bottom bg-light wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div
+                class="container topbar bg-primary d-none d-lg-block py-2"
+                style="border-radius: 0 40px"
+            >
+                <div class="d-flex justify-content-between">
+                    <div class="top-info ps-2">
+                        <small class="me-3"
+                            ><i
+                                class="fas fa-map-marker-alt me-2 text-secondary"
+                            ></i>
+                            <a href="#" class="text-white"
+                                >26 9th Ave, Edenburg, Sandton, 2128, South
+                                Africa</a
+                            ></small
+                        >
+                        <small class="me-3"
+                            ><i class="fas fa-envelope me-2 text-secondary"></i
+                            ><a href="#" class="text-white"
+                                >clarity_consult@gmail.com</a
+                            ></small
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-light navbar-expand-xl py-3">
+                    <a href="index.html" class="navbar-brand"
+                        ><h1 class="text-primary display-6">
+                            Clarity<span class="text-secondary">Consult</span>
+                        </h1></a
+                    >
+                    <button
+                        class="navbar-toggler py-2 px-3"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a
+                                href="index.html"
+                                class="nav-item nav-link active"
+                                >Home</a
+                            >
+                            <a href="about.html" class="nav-item nav-link"
+                                >About</a
+                            >
+                            <a href="service.html" class="nav-item nav-link"
+                                >Services</a
+                            >
+                            <a href="testimonial.html" class="nav-item nav-link"
+                                >Testimonial</a
+                            >
+                            <a href="contact.html" class="nav-item nav-link"
+                                >Contact</a
+                            >
+                        </div>
+                        <div class="d-flex me-4">
+                            <div
+                                id="phone-tada"
+                                class="d-flex align-items-center justify-content-center"
+                            >
+                                <a
+                                    href=""
+                                    class="position-relative wow tada"
+                                    data-wow-delay=".9s"
+                                >
+                                    <i
+                                        class="fa fa-phone-alt text-primary fa-2x me-4"
+                                    ></i>
+                                    <div
+                                        class="position-absolute"
+                                        style="top: -7px; left: 20px"
+                                    >
+                                        <span
+                                            ><i
+                                                class="fa fa-comment-dots text-secondary"
+                                            ></i
+                                        ></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                class="d-flex flex-column pe-3 border-end border-primary"
+                            >
+                                <span class="text-primary"
+                                    >Have any questions?</span
+                                >
+                                <a href="tel:278614674448"
+                                    ><span class="text-secondary"
+                                        >Free: +278614674448</span
+                                    ></a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <div
+            class="container-fluid py-5 hero-header wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-7 col-md-12">
+                        <h1 class="mb-5 display-1 text-white">
+                            Tailored Solutions to Achieve Your Business Goals
+                        </h1>
+                        <a
+                            href="contact.html"
+                            class="btn btn-primary px-4 py-3 px-md-5 me-4 btn-border-radius"
+                            >Get Started</a
+                        >
+                        <a
+                            href="about.html"
+                            class="btn btn-primary px-4 py-3 px-md-5 btn-border-radius"
+                            >Learn More</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+        <!-- About Start -->
+        <div class="container-fluid py-5 about">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="approach border"></div>
+                    </div>
+                    <div class="col-lg-7 wow fadeIn" data-wow-delay="0.3s">
+                        <h4
+                            class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                        >
+                            Our Approach
+                        </h4>
+                        <h1 class="text-dark mb-4 display-5">
+                            Delivering Tailored Consulting Solutions to Drive
+                            Success
+                        </h1>
+                        <p class="text-dark mb-4">
+                            Our consulting services are designed to provide your
+                            business with the strategic guidance and expertise
+                            needed to achieve measurable results. We take the
+                            time to understand the unique challenges and
+                            opportunities your business faces, working closely
+                            with you to develop customized solutions that foster
+                            growth and improve efficiency. From streamlining
+                            operations to enhancing leadership capabilities, our
+                            team offers practical insights that align with your
+                            objectives. Our approach is built on collaboration,
+                            ensuring we work together every step of the way to
+                            deliver actionable solutions that create lasting
+                            value.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Main Services Start -->
+        <div class="container-fluid py-5 services">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div
+                        class="col-lg-12 text-center wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <h4
+                            class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                        >
+                            Main services
+                        </h4>
+                        <h1 class="mb-2 display-3">
+                            Our Main Consulting Services
+                        </h1>
+
+                        <p class="text-dark mb-4">
+                            We offer a comprehensive range of consulting
+                            services designed to help your business thrive. Our
+                            expert team works closely with you to understand
+                            your unique needs and deliver actionable solutions
+                            that create sustainable value. From optimizing
+                            internal processes to driving growth strategies, we
+                            are here to guide your business every step of the
+                            way.
+                        </p>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <!-- Service 1 -->
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="service-card border rounded p-4 text-center"
+                        >
+                            <h4 class="text-primary mb-3">
+                                Process Optimization
+                            </h4>
+                            <p class="text-dark">
+                                We help businesses streamline their processes to
+                                improve efficiency, reduce costs, and enhance
+                                overall performance. Our tailored solutions are
+                                designed to align with your objectives and
+                                ensure sustainable improvements across the
+                                organization.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Service 2 -->
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="service-card border rounded p-4 text-center"
+                        >
+                            <h4 class="text-primary mb-3">
+                                Growth Strategy Development
+                            </h4>
+                            <p class="text-dark">
+                                Our team works with you to define and implement
+                                growth strategies that foster expansion and
+                                long-term success. Whether it's market
+                                penetration, product development, or strategic
+                                partnerships, we help you unlock new
+                                opportunities for growth.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Service 3 -->
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeIn"
+                        data-wow-delay="0.7s"
+                    >
+                        <div
+                            class="service-card border rounded p-4 text-center"
+                        >
+                            <h4 class="text-primary mb-3">
+                                Leadership Development
+                            </h4>
+                            <p class="text-dark">
+                                Strong leadership is key to a thriving
+                                organization. Our leadership development
+                                programs are designed to enhance managerial
+                                skills, improve decision-making capabilities,
+                                and empower leaders to drive organizational
+                                change effectively.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Services End -->
+
+        <!-- Service Start -->
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div
+                    class="mx-auto text-center wow fadeIn"
+                    data-wow-delay="0.1s"
+                    style="max-width: 700px"
+                >
+                    <h4
+                        class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                    >
+                        Why Us?
+                    </h4>
+                    <h1 class="mb-2 display-3">
+                        Why Choose Us for Your Consulting Needs?
+                    </h1>
+                    <p class="mb-5">
+                        Choosing the right consulting partner is essential to
+                        driving business success. We are committed to delivering
+                        personalized, actionable solutions that help your
+                        organization thrive. Our approach focuses on
+                        understanding your unique challenges and goals, then
+                        creating tailored strategies that align with your
+                        vision. With a client-centric mindset and a track record
+                        of proven results, we guide your business through the
+                        complexities of modern challenges. Our team is dedicated
+                        to empowering you with the tools, knowledge, and support
+                        needed to achieve long-term success.
+                    </p>
+                </div>
+                <div class="row g-5">
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="text-center border-primary border bg-white service-item"
+                        >
+                            <div
+                                class="service-content d-flex align-items-center justify-content-center p-4"
+                            >
+                                <div class="service-content-inner">
+                                    <a href="#" class="h4">
+                                        Tailored Business Strategy Development
+                                    </a>
+                                    <p class="my-3">
+                                        We understand that each business has
+                                        unique challenges and objectives. Our
+                                        team works closely with you to craft a
+                                        business strategy that aligns with your
+                                        specific goals, helping you achieve
+                                        measurable outcomes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="text-center border-primary border bg-white service-item"
+                        >
+                            <div
+                                class="service-content d-flex align-items-center justify-content-center p-4"
+                            >
+                                <div class="service-content-inner">
+                                    <a href="#" class="h4">
+                                        Process Efficiency Optimization
+                                    </a>
+                                    <p class="my-3">
+                                        We specialize in analyzing your current
+                                        business processes and identifying
+                                        opportunities for optimization. Our goal
+                                        is to streamline operations, reduce
+                                        costs, and improve overall efficiency,
+                                        so your business runs smoother and more
+                                        profitably.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="text-center border-primary border bg-white service-item"
+                        >
+                            <div
+                                class="service-content d-flex align-items-center justify-content-center p-4"
+                            >
+                                <div class="service-content-inner">
+                                    <a href="#" class="h4">
+                                        Leadership and Organizational
+                                        Development
+                                    </a>
+                                    <p class="my-3">
+                                        Strong leadership is at the core of
+                                        every successful business. We offer
+                                        leadership development programs designed
+                                        to empower your managers and executives
+                                        with the skills needed to lead teams
+                                        effectively and drive business growth.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeIn"
+                        data-wow-delay="0.7s"
+                    >
+                        <div
+                            class="text-center border-primary border bg-white service-item"
+                        >
+                            <div
+                                class="service-content d-flex align-items-center justify-content-center p-4"
+                            >
+                                <div class="service-content-inner">
+                                    <a href="#" class="h4">
+                                        Continuous Business Performance
+                                        Monitoring
+                                    </a>
+                                    <p class="my-3">
+                                        We don’t just create strategies and
+                                        leave it at that. We offer continuous
+                                        monitoring and performance evaluations,
+                                        ensuring that the plans we implement are
+                                        optimized over time to deliver
+                                        long-lasting success.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Programs Start -->
+        <div class="container-fluid program py-5">
+            <div class="container py-5">
+                <div
+                    class="mx-auto text-center wow fadeIn"
+                    data-wow-delay="0.1s"
+                    style="max-width: 700px"
+                >
+                    <h4
+                        class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                    >
+                        Our Features
+                    </h4>
+                    <h1 class="mb-2 display-3">
+                        Key Features of Our Consulting Services
+                    </h1>
+                    <p class="mb-5">
+                        Our consulting services are designed to offer a
+                        comprehensive approach to addressing your business
+                        needs. We work closely with you to understand your
+                        challenges and provide customized strategies that drive
+                        results. From refining your operations to enhancing
+                        leadership capabilities, our services are designed to
+                        ensure that your business continues to grow and succeed
+                        in a competitive landscape.
+                    </p>
+                </div>
+                <div class="row g-5 justify-content-center">
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-4 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="program-item rounded">
+                            <div class="program-img position-relative">
+                                <div class="overflow-hidden img-border-radius">
+                                    <img
+                                        src="img/program-1.jpg"
+                                        class="img-fluid w-100"
+                                        alt="Image"
+                                    />
+                                </div>
+                            </div>
+                            <div class="program-text bg-white px-4 pb-3">
+                                <div class="program-text-inner">
+                                    <a href="#" class="h4">
+                                        Customized Consulting Solutions
+                                    </a>
+                                    <p class="mt-3 mb-0">
+                                        We take the time to fully understand
+                                        your business needs and objectives. Our
+                                        tailored consulting services are
+                                        designed to address specific challenges
+                                        and drive measurable improvements,
+                                        ensuring your business stays ahead.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-4 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="program-item rounded">
+                            <div class="program-img position-relative">
+                                <div class="overflow-hidden img-border-radius">
+                                    <img
+                                        src="img/program-2.jpg"
+                                        class="img-fluid w-100"
+                                        alt="Image"
+                                    />
+                                </div>
+                            </div>
+                            <div class="program-text bg-white px-4 pb-3">
+                                <div class="program-text-inner">
+                                    <a href="#" class="h4">
+                                        Business Process Improvement
+                                    </a>
+                                    <p class="mt-3 mb-0">
+                                        We analyze your current business
+                                        processes, identify bottlenecks, and
+                                        provide strategic recommendations for
+                                        improvement. Our goal is to help your
+                                        business operate at peak efficiency,
+                                        saving you time and resources.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-4 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="program-item rounded">
+                            <div class="program-img position-relative">
+                                <div class="overflow-hidden img-border-radius">
+                                    <img
+                                        src="img/program-3.jpg"
+                                        class="img-fluid w-100"
+                                        alt="Image"
+                                    />
+                                </div>
+                            </div>
+                            <div class="program-text bg-white px-4 pb-3">
+                                <div class="program-text-inner">
+                                    <a href="#" class="h4">
+                                        Data-Driven Decision Making
+                                    </a>
+                                    <p class="mt-3 mb-0">
+                                        We leverage data analytics to provide
+                                        insights that drive smarter
+                                        decision-making. By using the latest
+                                        tools and methodologies, we help you
+                                        make informed choices that enhance your
+                                        business performance.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Program End -->
+
+        <!-- Blog Start-->
+        <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div
+                    class="mx-auto text-center wow fadeIn"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h4
+                        class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                    >
+                        Latest News & Blog
+                    </h4>
+                    <h1 class="mb-2 display-3">
+                        Insights and Trends in Business Consulting
+                    </h1>
+                    <p class="mb-5">
+                        Stay informed with our latest blog posts, where we share
+                        valuable insights and strategies related to business
+                        consulting. Our articles aim to empower you with
+                        knowledge on optimizing your business processes,
+                        improving performance, and driving growth. Whether
+                        you're looking for operational strategies, leadership
+                        insights, or effective solutions for business
+                        challenges, our blog covers a variety of topics that
+                        will help you succeed in the dynamic world of business
+                        consulting. Explore our latest posts to discover new
+                        approaches and innovative ideas for your business.
+                    </p>
+                </div>
+                <div class="row g-5 justify-content-center">
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-6 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="blog-item rounded-bottom">
+                            <div
+                                class="blog-img overflow-hidden position-relative img-border-radius"
+                            >
+                                <img
+                                    src="img/blog-1.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div
+                                class="d-flex justify-content-between px-4 py-3 bg-light border-bottom border-primary blog-date-comments"
+                            >
+                                <small class="text-dark"
+                                    ><i
+                                        class="fas fa-calendar me-1 text-dark"
+                                    ></i>
+                                    29 Nov 2023</small
+                                >
+                                <small class="text-dark"
+                                    ><i
+                                        class="fas fa-comment-alt me-1 text-dark"
+                                    ></i>
+                                    Comments (15)</small
+                                >
+                            </div>
+                            <div class="px-4 pb-4 bg-light pt-4 rounded-bottom">
+                                <div class="blog-text-inner">
+                                    <a href="#" class="h4">
+                                        Optimizing Your Business Operations: A
+                                        Step-by-Step Guide</a
+                                    >
+                                    <p class="mt-3 mb-4">
+                                        In this blog, we explore the key steps
+                                        to optimizing your business operations.
+                                        From streamlining workflows to
+                                        leveraging technology, we cover
+                                        strategies that can enhance efficiency,
+                                        reduce costs, and boost overall
+                                        productivity. Learn how to implement
+                                        effective process improvements that will
+                                        help your business thrive.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-6 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="blog-item rounded-bottom">
+                            <div
+                                class="blog-img overflow-hidden position-relative img-border-radius"
+                            >
+                                <img
+                                    src="img/blog-2.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div
+                                class="d-flex justify-content-between px-4 py-3 bg-light border-bottom border-primary blog-date-comments"
+                            >
+                                <small class="text-dark"
+                                    ><i
+                                        class="fas fa-calendar me-1 text-dark"
+                                    ></i>
+                                    18 Sep 2024</small
+                                >
+                                <small class="text-dark"
+                                    ><i
+                                        class="fas fa-comment-alt me-1 text-dark"
+                                    ></i>
+                                    Comments (215)</small
+                                >
+                            </div>
+
+                            <div class="px-4 pb-4 pt-4 bg-light rounded-bottom">
+                                <div class="blog-text-inner">
+                                    <a href="#" class="h4">
+                                        Top 5 Business Strategies for Achieving
+                                        Success
+                                    </a>
+                                    <p class="mt-3 mb-4">
+                                        Every successful business needs a
+                                        strategic plan to navigate the
+                                        competitive landscape. This article
+                                        explores the top 5 strategies that can
+                                        drive business success. From market
+                                        positioning to customer engagement,
+                                        these strategies will help you create a
+                                        clear roadmap for growth and ensure
+                                        long-term sustainability.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End-->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <h2 class="fw-bold mb-3">
+                                <span class="text-primary mb-0">Clarity </span
+                                ><span class="text-secondary">Consult</span>
+                            </h2>
+                            <p class="mb-4">
+                                Thank you for visiting our consulting services
+                                page. We are dedicated to helping businesses
+                                optimize their performance and overcome
+                                challenges with confidence and clarity. Our team
+                                of experienced consultants provides tailored
+                                strategies designed to improve efficiency,
+                                productivity, and growth.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <div
+                                class="d-flex flex-column p-4 ps-5 text-dark border border-primary"
+                                style="border-radius: 0"
+                            >
+                                <p>Monday: 8am to 5pm</p>
+                                <p>Tuesday: 8am to 5pm</p>
+                                <p>Wednes: 8am to 5pm</p>
+                                <p>Thursday: 8am to 5pm</p>
+                                <p>Friday: 8am to 5pm</p>
+                                <p>Saturday: 8am to 5pm</p>
+                                <p class="mb-0">Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <h4
+                                class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                            >
+                                LOCATION
+                            </h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a href="" class="text-body mb-4"
+                                    ><i
+                                        class="fa fa-map-marker-alt text-primary me-3"
+                                    ></i>
+                                    26 9th Ave, Edenburg, Sandton, 2128, South
+                                    Africa
+                                </a>
+                                <a href="tel:+1000000000" class="text-body mb-4"
+                                    ><i
+                                        class="fa fa-phone-alt text-primary me-3"
+                                    ></i
+                                    >+278614674448</a
+                                >
+                                <a
+                                    href="mailto:info@businessconsult.com"
+                                    class="text-body"
+                                    ><i
+                                        class="fa fa-envelope text-primary me-3"
+                                    ></i>
+                                    clarity_consult@gmail.com</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <h4
+                                class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                            >
+                                LINKS
+                            </h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a href="index.html" class="text-body mb-4">
+                                    Home
+                                </a>
+                                <a
+                                    href="terms-of-use.html"
+                                    class="text-body mb-4"
+                                    >Terms of use</a
+                                >
+                                <a href="privacy-policy.html" class="text-body"
+                                    >Privacy Policy
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a superior and
+                    more relevant browsing experience on the site.
+                    <a href="#">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary border-3 border-primary rounded-circle back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
